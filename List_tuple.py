@@ -1,6 +1,6 @@
 # ===============LISTS=====================
 # Ordered,mutable,indexed.
-# Allows duplicates.
+# Allows duplicates in list items.
 
 # Built in data type to store elements of different types.
 "Lists methods return none unlike string methods which return the updated string"
