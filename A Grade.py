@@ -2,7 +2,7 @@
 # store them in a list and sort them from "A" to "D"
 
 tup=["C","A","C","D","A","F","A"]
-print(tup.count("A"))
+print(tup.count("C"))
 list1 = list(tup)
 list1.sort()
 print(list1)
