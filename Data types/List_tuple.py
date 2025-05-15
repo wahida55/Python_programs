@@ -29,5 +29,5 @@ print(list)
 
 tup = (1, 3, 2, 5, 6, 3)
 print(tup)
-print(tup.index(3))
-print(tup.count(3))
+print(tup.index(3)) # returns the index of 3
+print(tup.count(3)) # returns the occurence of 3

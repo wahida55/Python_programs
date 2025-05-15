@@ -1,0 +1,4 @@
+Lists: Ordered, mutable sequences of items, allowing duplicates.
+Tuples: Ordered, immutable sequences of items, allowing duplicates.
+Sets: Unordered collections of unique items.
+Dictionaries: Collections of key-value pairs, where keys are unique and immutable.
