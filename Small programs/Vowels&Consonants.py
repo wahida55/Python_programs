@@ -1,7 +1,11 @@
-count = 0
-vowels="aeiouAEIOU"
-str=input("Enter any string:")
-for ch in str:
-    if ch in vowels:
-        count+=1
-print("No of vowels =",count)
+string = input("Enter any string")
+vowels = "aeiou"
+v=""
+consonants = ""
+for ch in string :
+    if ch.casefold() in vowels:
+        v=v+ch
+    else :
+        consonants=consonants+ch
+print(v)
+print(consonants)

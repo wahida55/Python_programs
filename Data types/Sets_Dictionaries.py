@@ -4,7 +4,7 @@
 info = {
     "name": "Wahida",
     "dob": "20-Nov-1997",
-    "age": 27,
+    "age": 27
     "is_adult": True
 }
 print(info)

@@ -1,5 +1,4 @@
 #WAP to sort characters of a string, first alphabets then digits.
-from Programs.String_2 import output
 
 s=input("Enter any string :")
 alpha=[]
