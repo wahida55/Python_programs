@@ -1,8 +1,8 @@
-n=input("Enter number :")
 try :
-    for i in range(1,11):
-        print(int(n)*i)
-except :
-    print("invalid input")
+    dct = {"name":"abc","gender":"F"}
+    print(dct["age"])
+except Exception as e:
+    print(f"Exception occurred! key/value mismatch {e}")
+    #print(msg)
 finally :
-    print("finally code ")
+    print("Execution complete")

@@ -1,4 +1,4 @@
-list = [1,2,3,4]
-dict = {x:x*x for x in list
+lst = [1,2,3,4]
+dct = {x:x*x for x in lst
 }
-print(dict)
+print(dct)

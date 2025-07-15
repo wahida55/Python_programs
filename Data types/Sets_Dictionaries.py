@@ -48,3 +48,18 @@ collection.pop()  # Deletes random element to the set
 print(collection)
 collection.clear()  # Clears the set
 print(collection)
+
+
+my_dict = {
+    "fruits": ["apple", "banana", "orange"],
+    "colors": ["red", "blue", "green", "red"]
+}
+
+# Accessing values
+print(my_dict["fruits"])
+# Output: ['apple', 'banana', 'orange']
+
+# Adding a new value to an existing list
+my_dict["fruits"].append("grape")
+print(my_dict["fruits"])
+# Output: ['apple', 'banana', 'orange', 'grape']
